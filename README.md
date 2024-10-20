@@ -1,2 +1,6 @@
 # Airport-Management-System
- 
+ The Airport Management System is a Python-based console application designed to manage essential airport operations, including flight management, passenger management, and flight bookings. It uses an SQLite database for backend storage, ensuring data persistence. The system allows users to add new flights, register passengers, and make bookings. It provides functions for viewing flight schedules, passenger information, and booking details. Each flight includes details like flight number, origin, destination, and departure/arrival times, while passengers are registered with their names, passport numbers, and nationality.
+
+Users can also search for specific flights using flight numbers and delete flight entries when no longer needed. The system ensures data integrity by enforcing unique flight numbers and passport numbers, avoiding duplicate entries. A booking system is integrated, allowing users to associate passengers with specific flights and view a detailed list of bookings, including booking dates.
+
+Error handling is built in to manage database constraints and invalid inputs gracefully. This program is ideal for students or developers learning database management and Python programming, as it covers fundamental concepts like CRUD operations (Create, Read, Update, Delete) and database querying with SQL. The system is simple, efficient, and scalable, with potential for further expansion into a full-fledged application.
